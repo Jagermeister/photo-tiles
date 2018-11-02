@@ -1,0 +1,7 @@
+<mat-grid-list cols="4" rowHeight="fit" gutterSize="0">
+    <mat-grid-tile *ngFor="let photo of photos">
+        <picture>
+            <img src="./assets/{{photo.href}}">
+        </picture>
+    </mat-grid-tile>
+</mat-grid-list>
