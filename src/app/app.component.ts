@@ -6,45 +6,45 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent implements OnInit {
-    photos: Object[];    
+    photos: Photo[];    
 
     ngOnInit() {
         this.photos = [
             {
-                href: '1.jpg'
+                src: '1.jpg'
             },
             {
-                href: '2.jpg'
+                src: '2.jpg'
             },
             {
-                href: '3.jpg'
+                src: '3.jpg'
             },
             {
-                href: '4.jpg'
+                src: '4.jpg'
             },
             {
-                href: '5.jpg'
+                src: '5.jpg'
             },
             {
-                href: '6.jpg'
+                src: '6.jpg'
             },
             {
-                href: '7.jpg'
+                src: '7.jpg'
             },
             {
-                href: '8.jpg'
+                src: '8.jpg'
             },
             {
-                href: '9.jpg'
+                src: '9.jpg'
             },
             {
-                href: '10.jpg'
+                src: '10.jpg'
             },
             {
-                href: '11.jpg'
+                src: '11.jpg'
             },
             {
-                href: '12.jpg'
+                src: '12.jpg'
             },
         ]
     }
