@@ -1,7 +1,9 @@
 <mat-grid-list cols="3" rowHeight="fit" gutterSize="0">
-    <mat-grid-tile *ngFor="let photo of photos">
+    <mat-grid-tile *ngFor="let photo of photos"
+        [colspan]="photo.cols ? photo.cols : 1"
+        [rowspan]="photo.rows ? photo.rows : 1">
         <picture>
-            <img src="./assets/{{photo.href}}">
+            <img src="./assets/{{photo.src}}">
         </picture>
     </mat-grid-tile>
 </mat-grid-list>

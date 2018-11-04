@@ -17,7 +17,8 @@ export class AppComponent implements OnInit {
                 src: '2.jpg'
             },
             {
-                src: '3.jpg'
+                src: '3.jpg',
+                rows: 2
             },
             {
                 src: '4.jpg'
@@ -26,25 +27,15 @@ export class AppComponent implements OnInit {
                 src: '5.jpg'
             },
             {
-                src: '6.jpg'
-            },
-            {
-                src: '7.jpg'
+                src: '12.jpg',
+                rows: 2,
+                cols: 2
             },
             {
                 src: '8.jpg'
             },
             {
                 src: '9.jpg'
-            },
-            {
-                src: '10.jpg'
-            },
-            {
-                src: '11.jpg'
-            },
-            {
-                src: '12.jpg'
             },
         ]
     }
