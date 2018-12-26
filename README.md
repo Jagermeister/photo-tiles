@@ -2,6 +2,9 @@
 
 To provide interactive photo displays which provide additional information overlays/on-hover/on-click. Initially aiming to have configured the transition between photo tiles (N images with X shown at a time in different layouts) but in scope to provide dynamic replacement.
 
+## Future feature set
+- Gallery mode which disables any overlays
+
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 6.0.8.
 
 ## Development server
