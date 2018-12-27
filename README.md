@@ -4,6 +4,7 @@ To provide interactive photo displays which provide additional information overl
 
 ## Future feature set
 - Gallery mode which disables any overlays
+- Flipping animation
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 6.0.8.
 
